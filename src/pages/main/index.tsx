@@ -1,9 +1,13 @@
 import React from 'react';
 
+import * as S from './styled';
+
 export const Main: React.FC = () => {
   return (
-    <div>
-      <h1>reactJs ToDo - Web</h1>
-    </div>
+    <S.MainPageWrapper>
+      <S.MainPageContainer>
+        <S.MainPageTitle>TODOLIST</S.MainPageTitle>
+      </S.MainPageContainer>
+    </S.MainPageWrapper>
   );
 };
